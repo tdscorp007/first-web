@@ -1,0 +1,185 @@
+body {
+     background-color: black;
+     color: aliceblue;
+}
+
+#nav li {
+     display: inline-block;
+     text-decoration: none;
+     color: aliceblue;
+     margin-left: 60px;
+     text-align: center;
+     font-family: 'Rubik Doodle Shadow';
+}
+
+#nav li:hover{
+     box-shadow: 0 0 10px 5px #ff4500; /* Adjust the color and spread as needed */
+     transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+     border-radius: 0;
+}
+
+#nav {
+     position:fixed;
+     text-align: center;
+     border: 2px solid black !important;
+     color: aliceblue;
+     background-color: black !important;
+     position: sticky !important;
+
+}
+
+.container {
+     text-align: center;
+     overflow: auto;
+     text-wrap: wrap !important;
+     position: relative;
+     margin-bottom: 60px; /* Adjust the spacing as needed */
+}
+
+#avenger-slider {
+
+     text-align: center;
+     height: 100%;
+     width: 100%;
+}
+
+.team {
+     border: 2px solid black !important;
+     text-align: center;
+     background-color: black;
+     color: aliceblue;
+
+}
+
+.heroes {
+     border: 2px solid black !important;
+     height: 45%;
+     width: 45%;
+}
+
+.cards {
+     overflow: hidden;
+     display: inline-block;
+     border: 2px solid black !important;
+     width: 25%;
+     height: 500px;
+     text-align: center;
+     text-wrap: wrap;
+     color: aliceblue;
+
+}
+
+.card p {
+     text-wrap: wrap;
+     color: #FFFFFF;
+}
+
+.about {
+     text-align: center;
+     border: 2px solid black;
+     background-color: black;
+     color: aliceblue;
+
+}
+
+p {
+     font-family: 'Roboto', sans-serif;
+}
+
+h2,
+h3 {
+     font-family: 'Rubik Doodle Shadow';
+
+}
+
+.contact {
+     /* float: left;
+     clear: right;
+     text-align: center; */
+     position: relative;
+     padding: 20px;
+}
+
+form {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     border-bottom-width: 50px;
+     font-family: 'Roboto', sans-serif;
+     text-align: center;
+
+}
+
+form input,
+select,
+label {
+
+     width: 20%;
+     height: 13%;
+     margin-bottom: 40px;
+     border-radius: 10px;
+     text-align: center;
+     font-family: 'Rubik Doodle Shadow';
+
+}
+
+input {
+     font-family: 'Rubik Doodle Shadow';
+     color: crimson;
+}
+
+.data {
+     /* margin-right: 750px;
+     margin-top: 100px; */
+
+     float: left;
+  width: calc(100% - 20px); /* Adjust the width as needed */
+}
+
+
+#button {
+     background-color: black;
+     border: none !important;
+     /* rotate: 70deg; */
+     height: 100px;
+}
+
+/* * Always set the map height explicitly to define the size of the div element
+ * that contains the map.  */
+
+#map {
+     position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100% - 20px); /* Adjust the width as needed */
+  height: 300px; /* Set a fixed height for the map */
+  margin-top: 600px; /* Add some space between the button and the map */
+  margin-right: 20px; /* Add margin to the right to prevent overlap */
+}
+
+#submit-image{
+     height: 200px;
+}
+
+#submit-image:hover{
+     box-shadow: 0 0 10px 5px #ff4500; /* Adjust the color and spread as needed */
+     transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+     border-radius: 0;
+     border-style: none;
+}
+
+.team,
+.about,
+.contact {
+    margin-bottom: 60px; /* Adjust the spacing as needed */
+}
+
+.footer {
+     text-align: center;
+     position: fixed;
+     background-color: black;
+     color: #fff;
+     text-align: center;
+     padding: 20px;
+     bottom: 0;
+     width: 100%;
+ }
